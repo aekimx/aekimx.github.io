@@ -3036,7 +3036,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 3em 3em 3em 3em ;
 			max-width: 100%;
 			width: 75em;
 		}
@@ -3743,6 +3743,24 @@ input, select, textarea {
 	width: 250px;
 	object-fit: cover;
 	border-radius: 200px
+}
+
+.img2 {
+	height: 175px;
+	width: 175px;
+	object-fit: cover;
+	border-radius: 100px;
+	margin-top: 10px;
+
+}
+
+.img2-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-top: 10px;
+	align-items: center;
+
 }
 
 .name-container {
